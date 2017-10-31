@@ -1,0 +1,32 @@
+@media (max-width: 480px) {
+  .imgRowBlock {
+    padding: 15px 0;
+    .wrapper {
+      margin: -15px;
+      .textBlock {
+        padding: 30px 15px;
+        text-align: center;
+        h3:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          height: 2px;
+          width: 45px;
+          background: #ff525e;
+        }
+      }
+    }
+  }
+  .mainFooter .wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    .block {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+}

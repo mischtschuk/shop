@@ -1,0 +1,58 @@
+@media (max-width: 767px) {
+  .mainContainer {
+    width: 100%;
+  }
+  .mainPageImgHolder {
+    .caption {
+      h3 {
+        font-size: 32px;
+        letter-spacing: 1px;
+        margin-bottom: 15px;
+      }
+      h1 {
+        font-size: 48px;
+        margin-bottom: 45px;
+      }
+    }
+  }
+  .centralTextHolder {
+    .wrapper {
+      width: 100%;
+    }
+    h2 {
+      font-size: 26px;
+    }
+  }
+  .imgRowBlock {
+    .textBlock {
+      padding: 30px;
+    }
+  }
+  .slogan {
+    padding: 45px 0;
+    .wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .sloganText {
+      width: 100%;
+      padding-right: 0;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  }
+  .textWithImageHolder {
+    .wrapper {
+      .textHolder {
+        width: 100%;
+        text-align: center;
+        h2 {
+          font-size: 26px;
+        }
+      }
+      .imgHolder {
+        display: none;
+      }
+    }
+  }
+}
